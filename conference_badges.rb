@@ -10,6 +10,10 @@ def batch_badge_maker(arr)
   lst
 end
 
+def assign_rooms(arr)
+  lst = []
+  arr.each
+
 def conference_badges(arr)
   arr.each do |name|
     badge_maker(name)
