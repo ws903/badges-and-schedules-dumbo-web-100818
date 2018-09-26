@@ -23,5 +23,4 @@ def printer(arr)
   rooms = assign_rooms(arr)
   
   badges.concat(rooms)
-  badges
     
