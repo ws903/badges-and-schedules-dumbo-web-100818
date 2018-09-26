@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def conference_badges
-  
+  attendees
   
   arr.each do |name|
     badge_maker(name)
