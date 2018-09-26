@@ -12,7 +12,8 @@ end
 
 def assign_rooms(arr)
   lst = []
-  arr.each
+  for i in 1..arr.size() do
+    lst.push("")
 
 def conference_badges(arr)
   arr.each do |name|
