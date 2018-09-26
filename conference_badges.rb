@@ -22,5 +22,6 @@ def printer(arr)
   badges = batch_badge_creator(arr)
   rooms = assign_rooms(arr)
   
-  for i in 0...badges.size()-1 do
+  badges.concat(rooms)
+  badges
     
