@@ -12,8 +12,8 @@ end
 
 def assign_rooms(arr)
   lst = []
-  for i in 1..arr.size() do
-    lst.push("Hello, #{arr[i]}! You'll be assigned to room #{i}!")
+  for i in 0...arr.size() do
+    lst.push("Hello, #{arr[i]}! You'll be assigned to room #{i+1}!")
   end
   lst
 end
