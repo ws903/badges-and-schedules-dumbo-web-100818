@@ -18,9 +18,9 @@ def assign_rooms(arr)
   lst
 end
 
-# def conference_badges(arr)
-#   arr.each do |name|
-#     badge_maker(name)
-#   end
-#   arr.each do |name|
+def printer(arr)
+  badges = batch_badge_creator(arr)
+  rooms = assign_rooms(arr)
+  
+  for i in 0...badges.size()-1 do
     
